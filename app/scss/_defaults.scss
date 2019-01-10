@@ -25,12 +25,12 @@ $text-color: #999999;
 }
 
 .heading2 {
-	@extend .heading1;
+	@extend .heading1 ;
 	font-size: 18px;
 }
 
 .paragraph {
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: 400;
 	line-height: 20px;
 	color: $text-color;

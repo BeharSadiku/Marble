@@ -3,11 +3,11 @@ body {
 }
 
 h1 {
-	@extend .heading1;
+	@extend .heading1 ;
 }
 
 p {
-	@extend .paragraph;
+	@extend .paragraph ;
 }
 
 a {
@@ -16,7 +16,7 @@ a {
 }
 
 a.btn-default {
-	@extend .heading2;
+	@extend .heading2 ; 
 	color: #fff;
 	padding: 14px 50px;
 	background: $primary-color;

@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,500,500i,600,700,700i,800");
-.heading1, .heading2, a.btn-default, h1 {
+.heading1, .heading2, a.btn-default, div.mission-text h2, h1 {
   color: #3a3d41;
   font-size: 24px;
   font-weight: 700;
   margin: 0 0 10px; }
 
-.heading2, a.btn-default {
+.heading2, a.btn-default, div.mission-text h2 {
   font-size: 18px; }
 
 .paragraph, p {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 20px;
   color: #999999;
@@ -79,3 +79,31 @@ section.slider-section:after {
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5); }
+
+div.mission-post {
+  padding-top: 20px;
+  border-top: solid 2px #e74c3c transparent; }
+  div.mission-post:hover {
+    border-top: solid 2px #e74c3c; }
+
+div.mission-numbers {
+  width: 50px;
+  height: 50px;
+  padding: 5px  20px;
+  font-size: 24px;
+  color: white;
+  background: #e74c3c;
+  border-radius: 50%;
+  float: left; }
+  div.mission-numbers:hover {
+    background: #f9fafb;
+    color: #333; }
+
+div.mission-text h2 {
+  color: #fff; }
+  div.mission-text h2 p {
+    font-size: 12px;
+    font-weight: 700 !important;
+    line-height: 20px;
+    color: #ddd !important;
+    margin: 0 0 20px; }
