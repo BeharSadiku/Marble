@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,500,500i,600,700,700i,800");
-.heading1, .heading2, a.btn-default, div.mission-text h2, h1, div.reason-text h2 {
+.heading1, .heading2, a.btn-default, div.mission-text h2, h1, div.reason-text h2, div.services h2 {
   color: #3a3d41;
   font-size: 24px;
   font-weight: 700;
@@ -114,3 +114,82 @@ div.reason-text {
   div.reason-text p {
     font-size: 18px;
     color: #999999; }
+
+section.perks {
+  background: #3a3d41 url("../upload/banners/back.jpg") center center;
+  text-align: center;
+  padding: 60px 0 85px 0;
+  position: relative;
+  z-index: 2; }
+  section.perks:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); }
+  section.perks .container {
+    position: relative;
+    z-index: 3; }
+
+div.services i {
+  padding: 18px 10px;
+  font-size: 28px;
+  color: #3a3d41;
+  background: white;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px; }
+
+div.services hr {
+  padding-top: 40px;
+  width: 60px;
+  height: 2px; }
+
+div.services h2 {
+  padding-top: 30px;
+  color: white;
+  font-weight: 400; }
+
+div.services p {
+  color: white; }
+
+div.services .btn-default {
+  background: #3a3d41;
+  color: white;
+  border: 1px solid white;
+  border-bottom: 2px solid #5c5f62;
+  font-size: 12px; }
+
+div.services.services:hover i {
+  background: #e74c3c;
+  color: white;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out; }
+
+div.services.services:hover hr {
+  color: #e74c3c;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out; }
+
+div.services.services:hover h2 {
+  color: #e74c3c;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out; }
+
+div.services.services:hover .btn-default {
+  border: 1px solid #e74c3c;
+  border-bottom: 2px solid #9e2114;
+  background: #e74c3c;
+  color: white;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out; }

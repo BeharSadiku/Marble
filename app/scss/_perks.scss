@@ -1,0 +1,76 @@
+section.perks{
+  background: $title-color url('../upload/banners/back.jpg') center center;
+  text-align: center;
+  padding: 60px 0 85px 0;
+    position: relative;
+    z-index: 2;
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+  }
+  .container{
+    position: relative;
+    z-index: 3;
+  }
+  }
+
+  div.services{
+    i{
+      padding: 18px 10px;
+      font-size: 28px;
+      color:$title-color;
+      background: white;
+      border-radius: 50%;
+      width: 65px;
+      height: 65px;
+      }
+      hr{
+        padding-top: 40px;
+        width: 60px;
+        height: 2px;
+      }
+      h2{
+        padding-top: 30px;
+        @extend .heading1 ;
+        color: white;
+        font-weight: 400;
+      }
+      p{
+        color: white;
+      }
+      .btn-default{
+        background: $title-color;
+        color: white;
+        border: 1px solid white;
+        border-bottom: 2px solid #5c5f62;
+        font-size: 12px;
+      }
+      &.services:hover{
+        i{
+        background: $primary-color;
+        color: white;
+        @include transition(0.2s)
+        }
+        hr{
+          color: $primary-color;
+          @include transition(0.2s)
+        }
+        h2{
+          color:$primary-color;
+          @include transition(0.2s)
+        }
+        .btn-default{
+          border: 1px solid $primary-color;
+          border-bottom: 2px solid $border-color;
+          background: $primary-color;
+          color: white;
+          @include transition(0.2s)
+  
+        }
+      }
+  }
