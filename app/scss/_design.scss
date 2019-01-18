@@ -1,0 +1,44 @@
+
+
+div.design-text{
+  background: $title-color url('../images/pattern.jpg') center center;
+  padding: 70px 0px;
+  text-align: center;
+  h2{
+    @extend .heading1 ;
+    color: white;
+    
+  }
+  p{
+    @extend .paragraph ;
+    font-size: 14px;
+    color: $text-color;
+  }
+  a.btn-default {
+    @extend .heading2 ; 
+    color: #fff;
+    padding: 15px 50px;
+    background: $primary-color;
+    @include border-radius(4px);
+    border-bottom: 3px solid $border-color;
+    @include transition(0.2s);
+    &:hover {
+      opacity: 0.7;
+      color: $primary-color;
+      background: white;
+      border-bottom: 3px solid $text-color;
+
+    }
+    i{
+      padding-left: 50px;
+    
+    }
+  }
+}
+
+
+
+
+
+
+

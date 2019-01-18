@@ -69,7 +69,8 @@ section.perks{
           border-bottom: 2px solid $border-color;
           background: $primary-color;
           color: white;
-          @include transition(0.2s)
+          @include transition(0.2s);
+          
   
         }
       }
