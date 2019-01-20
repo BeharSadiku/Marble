@@ -33,6 +33,7 @@ section.perks{
         padding-top: 40px;
         width: 60px;
         height: 2px;
+        border-top:1px solid white;
       }
       h2{
         padding-top: 30px;
@@ -57,7 +58,7 @@ section.perks{
         @include transition(0.2s)
         }
         hr{
-          color: $primary-color;
+          border-top:1px solid $primary-color;
           @include transition(0.2s)
         }
         h2{
