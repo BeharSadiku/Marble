@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,500,500i,600,700,700i,800");
-.heading1, .heading2, a.btn-default, div.mission-text h2, div.design-text a.btn-default, div.creative-text-2 ul li div.inner-text h2, h1, div.reason-text h2, div.services h2, div.design-text h2, .creative-text h2 {
+.heading1, .heading2, a.btn-default, div.mission-text h2, div.design-text a.btn-default, div.creative-text-2 ul li div.inner-text h2, h1, div.reason-text h2, div.services h2, div.design-text h2, .creative-text h2, div.latest-text h2, div.date-numbers h3, div.date-text h2 {
   color: #3a3d41;
   font-size: 24px;
   font-weight: 700;
@@ -8,7 +8,7 @@
 .heading2, a.btn-default, div.mission-text h2, div.design-text a.btn-default, div.creative-text-2 ul li div.inner-text h2 {
   font-size: 18px; }
 
-.paragraph, p, div.reason-text p, div.design-text p {
+.paragraph, p, div.reason-text p, div.design-text p, div.date-numbers p {
   font-size: 12px;
   font-weight: 400;
   line-height: 20px;
@@ -339,3 +339,59 @@ div.creative-text-2 {
       div.creative-text-2 ul li div.inner-text h2 {
         color: white;
         padding: 10px 0px; }
+
+section.latest-post .buttons {
+  padding-top: 50px; }
+
+div.latest-text {
+  text-align: center; }
+  div.latest-text h2 {
+    padding: 65px  15px 0; }
+  div.latest-text p {
+    padding-bottom: 65px;
+    font-size: 18px; }
+
+div.photo-holder img {
+  width: 100%;
+  height: auto; }
+
+div.date-numbers {
+  float: left;
+  width: 60px;
+  height: 90px;
+  background: #3a3d41;
+  text-align: center;
+  padding: 12px 2px; }
+  div.date-numbers h3 {
+    font-weight: bold;
+    color: white; }
+  div.date-numbers hr {
+    border-top: 1px solid white;
+    width: 20px;
+    margin: 8px 0px 10px 18px; }
+  div.date-numbers p {
+    font-size: 14px;
+    color: white; }
+  div.date-numbers:hover {
+    background: #e74c3c;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out; }
+
+div.date-text {
+  margin-left: 60px;
+  padding: 15px 20px;
+  background: #f9fafb; }
+  div.date-text h2 {
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block; }
+  div.date-text p {
+    color: black; }
+  div.date-text:hover h2 {
+    color: #e74c3c;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out; }
