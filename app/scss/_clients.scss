@@ -1,0 +1,30 @@
+section.clients-post{
+    padding: 65px 55px;
+    text-align: center;
+    background: #f9fafb;
+  
+}
+div.clients-text{
+  h2{
+    @extend .heading1 ;
+    padding-top: 70px;
+  }
+  p{
+    font-size: 18px;
+    padding-bottom: 85px;
+  }
+}
+
+div.clients-photo{
+  width: 100%;
+  
+}
+
+
+
+
+
+
+
+
+

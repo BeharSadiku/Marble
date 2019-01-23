@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,500,500i,600,700,700i,800");
-.heading1, .heading2, a.btn-default, div.mission-text h2, div.design-text a.btn-default, div.creative-text-2 ul li div.inner-text h2, h1, div.reason-text h2, div.services h2, div.design-text h2, .creative-text h2, div.latest-text h2, div.date-numbers h3, div.date-text h2 {
+.heading1, .heading2, a.btn-default, div.mission-text h2, div.design-text a.btn-default, div.creative-text-2 ul li div.inner-text h2, h1, div.reason-text h2, div.services h2, div.design-text h2, .creative-text h2, div.latest-text h2, div.date-numbers h3, div.date-text h2, div.clients-text h2 {
   color: #3a3d41;
   font-size: 24px;
   font-weight: 700;
@@ -395,3 +395,44 @@ div.date-text {
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out; }
+
+section.clients-post {
+  padding: 65px 55px;
+  text-align: center;
+  background: #f9fafb; }
+
+div.clients-text h2 {
+  padding-top: 70px; }
+
+div.clients-text p {
+  font-size: 18px;
+  padding-bottom: 85px; }
+
+div.clients-photo {
+  width: 100%; }
+
+section.social-post {
+  background: #e74c3c;
+  text-align: center;
+  padding: 15px; }
+
+ul.social-icons {
+  padding: 0;
+  list-style: none;
+  margin-top: 15px !important; }
+  ul.social-icons li {
+    display: inline-block;
+    padding: 0px 15px; }
+    ul.social-icons li a:hover {
+      border-radius: 5px;
+      border: 1px solid white;
+      transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      -webkit-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      width: 40px;
+      height: 40px; }
+    ul.social-icons li a i {
+      color: white;
+      font-size: 22px;
+      padding-top: 7px; }
