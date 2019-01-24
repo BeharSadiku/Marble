@@ -2,7 +2,7 @@
 section.social-post{
     background: $primary-color;
     text-align: center;
-    padding: 15px;
+    padding: 5px;
 } 
 
   ul.social-icons {
@@ -11,20 +11,118 @@ section.social-post{
     margin-top: 15px !important;
     li {
       display: inline-block;
-      padding: 0px 15px;
+      padding: 0px 5px;
       a{
+        border-radius: 5px;
+        border: 1px solid transparent;
+        width: 40px;
+        height: 40px;
         &:hover{
           border-radius: 5px;
           border: 1px solid white;
-          @include transition (0.2s);
+          @include transition (0.3s);
           width: 40px;
           height: 40px;
         }
         i{
         color: white;
-        font-size: 22px;
+        font-size: 20px;
         padding-top: 7px;
         }
+      }
+    }
+  }
+
+  section.last-section{
+    background: url('../images/pattern.png') center center;
+    padding: 85px 0px;
+
+    h2{
+      color: white;
+      padding-bottom: 45px;
+    }
+    p{
+      color: white;
+    }
+    ul {
+      padding:0;
+      margin: 0;
+      list-style: none;
+      li {
+        display: inline-block;
+        margin-bottom: 5px;
+        margin-right: 2px;
+        img{
+          width: 70px;
+        }
+      }
+    }
+    i{
+      color: white;
+      float: left;
+      padding-right: 10px;
+    }
+    span{
+      color: white;
+      
+    }
+    
+    div.section-tweets{
+      li{
+        margin-bottom: 30px;
+        p{
+          margin: 0 0 0 30px;
+        }
+        span{
+          margin: 0 0 0 30px;
+          font-size: 13px;
+          color: $text-color;
+        }
+      }
+    }
+    form.subscribe-form {
+      display: inline-block;
+      background: #ffffff;
+      color: #c8c8c8;
+      font-size: 13px;
+      input[type=text]{
+        display: inline-block;
+        padding: 12px 10px;
+        background: #ffffff;
+        color: #c8c8c8;
+        font-size: 13px;
+        font-family: 'Raleway', sans-serif;
+        border: none;
+        outline: none;
+        margin: 0;
+      }
+      input[type=submit]{
+        display: inline-block;
+        padding: 13px 8px 12px;
+        background: #e74c3c;
+
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 700;
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        border: none;
+        outline: none;
+        margin: 0;
+        transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.2s 
+      }
+    }
+    div.footer-line{
+      margin-top: 50px;
+      padding-top: 32px;
+      border-top: 1px solid #595c60;
+      text-align: center;
+      
+      p{
+        color: $text-color;
+
       }
     }
   }

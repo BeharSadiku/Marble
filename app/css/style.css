@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,500,500i,600,700,700i,800");
-.heading1, .heading2, a.btn-default, div.mission-text h2, div.design-text a.btn-default, div.creative-text-2 ul li div.inner-text h2, h1, div.reason-text h2, div.services h2, div.design-text h2, .creative-text h2, div.latest-text h2, div.date-numbers h3, div.date-text h2, div.clients-text h2 {
+.heading1, .heading2, a.btn-default, div.mission-text h2, div.design-text a.btn-default, div.creative-text-2 ul li div.inner-text h2, h2, div.reason-text h2, div.services h2, div.design-text h2, .creative-text h2, div.latest-text h2, div.date-numbers h3, div.date-text h2, div.clients-text h2 {
   color: #3a3d41;
   font-size: 24px;
   font-weight: 700;
@@ -414,7 +414,7 @@ div.clients-photo {
 section.social-post {
   background: #e74c3c;
   text-align: center;
-  padding: 15px; }
+  padding: 5px; }
 
 ul.social-icons {
   padding: 0;
@@ -422,17 +422,92 @@ ul.social-icons {
   margin-top: 15px !important; }
   ul.social-icons li {
     display: inline-block;
-    padding: 0px 15px; }
-    ul.social-icons li a:hover {
+    padding: 0px 5px; }
+    ul.social-icons li a {
       border-radius: 5px;
-      border: 1px solid white;
-      transition: all 0.2s ease-in-out;
-      -moz-transition: all 0.2s ease-in-out;
-      -webkit-transition: all 0.2s ease-in-out;
-      -o-transition: all 0.2s ease-in-out;
+      border: 1px solid transparent;
       width: 40px;
       height: 40px; }
-    ul.social-icons li a i {
-      color: white;
-      font-size: 22px;
-      padding-top: 7px; }
+      ul.social-icons li a:hover {
+        border-radius: 5px;
+        border: 1px solid white;
+        transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        width: 40px;
+        height: 40px; }
+      ul.social-icons li a i {
+        color: white;
+        font-size: 20px;
+        padding-top: 7px; }
+
+section.last-section {
+  background: url("../images/pattern.png") center center;
+  padding: 85px 0px; }
+  section.last-section h2 {
+    color: white;
+    padding-bottom: 45px; }
+  section.last-section p {
+    color: white; }
+  section.last-section ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+    section.last-section ul li {
+      display: inline-block;
+      margin-bottom: 5px;
+      margin-right: 2px; }
+      section.last-section ul li img {
+        width: 70px; }
+  section.last-section i {
+    color: white;
+    float: left;
+    padding-right: 10px; }
+  section.last-section span {
+    color: white; }
+  section.last-section div.section-tweets li {
+    margin-bottom: 30px; }
+    section.last-section div.section-tweets li p {
+      margin: 0 0 0 30px; }
+    section.last-section div.section-tweets li span {
+      margin: 0 0 0 30px;
+      font-size: 13px;
+      color: #999999; }
+  section.last-section form.subscribe-form {
+    display: inline-block;
+    background: #ffffff;
+    color: #c8c8c8;
+    font-size: 13px; }
+    section.last-section form.subscribe-form input[type=text] {
+      display: inline-block;
+      padding: 12px 10px;
+      background: #ffffff;
+      color: #c8c8c8;
+      font-size: 13px;
+      font-family: 'Raleway', sans-serif;
+      border: none;
+      outline: none;
+      margin: 0; }
+    section.last-section form.subscribe-form input[type=submit] {
+      display: inline-block;
+      padding: 13px 8px 12px;
+      background: #e74c3c;
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 700;
+      font-family: 'Raleway', sans-serif;
+      text-transform: uppercase;
+      border: none;
+      outline: none;
+      margin: 0;
+      transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      -webkit-transition: all 0.2s; }
+  section.last-section div.footer-line {
+    margin-top: 50px;
+    padding-top: 32px;
+    border-top: 1px solid #595c60;
+    text-align: center; }
+    section.last-section div.footer-line p {
+      color: #999999; }
