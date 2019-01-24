@@ -34,9 +34,9 @@ section.slider-section:after {
 }
 div.mission-post{
 	padding-top: 20px;
-	border-top: solid 2px $primary-color transparent;
+	border-top: 2px solid  transparent;
 	&:hover{
-		border-top: solid 2px $primary-color;
+		border-top: 2px solid $primary-color;
 	}
 }
 

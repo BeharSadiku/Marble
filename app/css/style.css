@@ -82,9 +82,9 @@ section.slider-section:after {
 
 div.mission-post {
   padding-top: 20px;
-  border-top: solid 2px #e74c3c transparent; }
+  border-top: 2px solid  transparent; }
   div.mission-post:hover {
-    border-top: solid 2px #e74c3c; }
+    border-top: 2px solid #e74c3c; }
 
 div.mission-numbers {
   width: 50px;
@@ -206,7 +206,7 @@ div.design-text {
     color: #999999; }
   div.design-text a.btn-default {
     color: #fff;
-    padding: 15px 50px;
+    padding: 10px 30px;
     background: #e74c3c;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -223,7 +223,7 @@ div.design-text {
       background: white;
       border-bottom: 3px solid #999999; }
     div.design-text a.btn-default i {
-      padding-left: 50px; }
+      padding-left: 40px; }
 
 section.pictures {
   padding: 10px 0px;
